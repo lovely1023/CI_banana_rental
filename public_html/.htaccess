@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bananacampers\.net$
+RewriteRule ^/?$ "https\:\/\/www\.bananacampers\.pt\/" [R=301,L]
+
